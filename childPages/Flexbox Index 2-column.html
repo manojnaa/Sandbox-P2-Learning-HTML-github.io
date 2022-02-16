@@ -24,7 +24,27 @@
     <!-- meta http-equiv="content-type" content="text/html; charset=UTF-8" -->
     <!-- Already specified in the charset above-->
 
-    <style> div {border: thin dotted red;} </style>
+    <style>
+      div {border: thin dotted red;}
+      * {
+        box-sizing: border-box;
+      }
+      .header {
+        border: 1px solid red;
+      }
+      .menu {
+        width: 25%;
+        float: left;
+        padding: 15px;
+        border: 1px solid red;
+      }
+      .main {
+        width: 75%;
+        float: left;
+        padding: 15px;
+        border: 1px solid red;
+      }
+    </style>
 
   </head>
   <body>
